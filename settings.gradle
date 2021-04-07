@@ -1,0 +1,2 @@
+rootProject.name = "fillament-demo"
+include ':app'
