@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         surfaceView = SurfaceView(this).apply { setContentView(this) }
         choreographer = Choreographer.getInstance()
         modelViewer = ModelViewer(surfaceView)
-      //  surfaceView.setOnTouchListener(modelViewer)
+        surfaceView.setOnTouchListener(modelViewer)
         loadGlb("gltf")
 
 
